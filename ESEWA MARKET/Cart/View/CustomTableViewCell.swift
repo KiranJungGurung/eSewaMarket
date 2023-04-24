@@ -8,10 +8,10 @@ import UIKit
 
 class CustomTableViewCell: UITableViewCell {
 
+
   static let identifier = "CustomCartableViewCell"
-    
-    var count = 1
-   
+
+    var countChanged: ((Double)-> Void)?
 
 
 // MARK: - Add ContainerView
@@ -117,7 +117,9 @@ class CustomTableViewCell: UITableViewCell {
     }()
     
     var quantity = 1
-    var productPrice =  10.0
+    var productPrice =  19_500.00
+    
+
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -136,6 +138,7 @@ class CustomTableViewCell: UITableViewCell {
         contentView.addSubview(myAddButton)
         
         myAddButton.addTarget(self, action: #selector(addButtonTapped(_:)), for: .touchUpInside)
+        mySubButton.addTarget(self, action: #selector(subButtonTapped(_:)), for: .touchUpInside)
     }
     
     required init?(coder: NSCoder) {
@@ -217,6 +220,7 @@ class CustomTableViewCell: UITableViewCell {
     func updatePriceLabel() {
         let updatedPrice = calculatePrice(quantity: quantity)
         ProductQuantity.text = "$\(updatedPrice)"
+        countChanged?(Double(updatedPrice))
     }
 
     @objc func addButtonTapped(_ sender: UIButton) {
@@ -229,7 +233,7 @@ class CustomTableViewCell: UITableViewCell {
         itemCountLabel.text = "\(quantity)"
     }
 
-    func minusButtonTapped(_ sender: UIButton) {
+    @objc func subButtonTapped(_ sender: UIButton) {
         if quantity > 1 {
             quantity -= 1
             updatePriceLabel()
@@ -238,24 +242,11 @@ class CustomTableViewCell: UITableViewCell {
     
     
 }
-    
-//var price: Double?
-//for item in items {
-//    price = item.price + price
-//}
 
-class CustomCell: UITableViewCell {
-    var count = 1
-    var updateCountClosure: ((Int) -> Void)?
+   
 
-    // your cell code...
 
-    @IBAction func addButtonTapped(_ sender: UIButton) {
-        // increment count and call closure
-        count += 1
-        updateCountClosure?(count)
-    }
-}
+
 
 
 

@@ -97,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				B3D51CF129EE87D200435BB3 /* CustomTableViewCell.swift */,
+				B33C078229F5361A00FDFBD2 /* MyCartViewController.swift */,
 				B36E2F6029F502AC0039031F /* DeletePopUpViewController.swift */,
 			);
 			path = View;
@@ -198,7 +199,6 @@
 				B3297EC929F038C300D5E555 /* Cart */,
 				B3D51CDD29EE847900435BB3 /* AppDelegate.swift */,
 				B3D51CDF29EE847900435BB3 /* SceneDelegate.swift */,
-				B33C078229F5361A00FDFBD2 /* MyCartViewController.swift */,
 				B36E2F6429F533EA0039031F /* DeleteViewController.swift */,
 				B3D51CE629EE847A00435BB3 /* Assets.xcassets */,
 				B3D51CE829EE847A00435BB3 /* LaunchScreen.storyboard */,

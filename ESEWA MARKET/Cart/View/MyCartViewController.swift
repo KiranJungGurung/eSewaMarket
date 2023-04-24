@@ -10,7 +10,9 @@ import BottomSheet
 
 class MyCartViewController: UIViewController {
     //    let pc = HomeViewController()
-        var items = 2
+    var items = 2
+    var count = 1
+    var totalAmount = 20
         
         // MARK: - Add Delete and Cancel View
         
@@ -157,24 +159,6 @@ class MyCartViewController: UIViewController {
         }
         
         func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-            if editingStyle == .delete {
-                
-                
-    //            let alertController = UIAlertController(title: "Delete from cart", message: "Are you sure you want to delete this item(s)?", preferredStyle: .alert)
-    //
-    //            let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { (action) in
-    //                tableView.reloadData()
-    //            }
-    //
-    //            let deleteAction = UIAlertAction(title: "Delete", style: .destructive) { (action) in
-    //                tableView.deleteRows(at: [indexPath], with: .fade)
-    //            }
-    //
-    //            alertController.addAction(cancelAction)
-    //            alertController.addAction(deleteAction)
-    //
-    //            present(alertController, animated: true, completion: nil)
-                
 //                // show the delete pop up view
                 let vc = DeletePopUpViewController()
                 vc.modalPresentationStyle = .popover
@@ -187,30 +171,32 @@ class MyCartViewController: UIViewController {
             }
         }
         
-    }
 
-    extension MyCartViewController: UITableViewDataSource {
-        
-        func numberOfSections(in tableView: UITableView) -> Int {
-            return 1
-        }
-        
-        func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-            return "items \(items)"
-        }
-        
-        func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-            return 2
-        }
-        
-        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-            let cell = tableView.dequeueReusableCell(withIdentifier: CustomTableViewCell.identifier, for: indexPath) as! CustomTableViewCell
-    //        cell.textLabel?.text = "Cell \(indexPath.row )"
-//            cell.on = {
-//                 update the amount view in footerview label
-//            }
+extension MyCartViewController: UITableViewDataSource {
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "items \(items)"
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 2
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: CustomTableViewCell.identifier, for: indexPath) as! CustomTableViewCell
+//        cell.updateCountClosure = { [weak self] count in
+//            self?.totalPriceLabel.text = "\(count)"
             cell.backgroundColor = .clear
-                return cell
+        cell.countChanged = { price in
+            print("\(price)++++++++++++ ")
+            // update the view
+            
+        }
+            return cell
         }
         func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
             
@@ -220,14 +206,15 @@ class MyCartViewController: UIViewController {
         
         //* reference for shop page
         
-    //    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
-    //        let footerView = UIView()
-    //        footerView.backgroundColor = .cyan
-    //        return footerView
-    //    }
-    //
-    //    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-    //        return 120
-    //    }
+        //    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+        //        let footerView = UIView()
+        //        footerView.backgroundColor = .cyan
+        //        return footerView
+        //    }
+        //
+        //    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        //        return 120
+        //    }
         
     }
+

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "48770926-07FF-4034-82BD-04C18E7415AA"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE3AF456-EACE-48EE-9660-628E83E27DCB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ESEWA MARKET/Cart/View/DeletePopUpViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "titleLabel"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C5A340CF-CCF6-4374-A711-A8BB13D1BD65"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ESEWA MARKET/Cart/View/MyCartViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "194"
+            endingLineNumber = "194"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C5A340CF-CCF6-4374-A711-A8BB13D1BD65 - 7bbad648bb8bdfe5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ESEWA_MARKET.MyCartViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "ESEWA MARKET"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirangurung/Desktop/NewP/ESEWA%20MARKET/ESEWA%20MARKET/Cart/View/MyCartViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "194"
+                  endingLineNumber = "194"
+                  offsetFromSymbolStart = "452">
+               </Location>
+               <Location
+                  uuid = "C5A340CF-CCF6-4374-A711-A8BB13D1BD65 - aeddd792f0f6ec79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Double) -&gt; () in ESEWA_MARKET.MyCartViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "ESEWA MARKET"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirangurung/Desktop/NewP/ESEWA%20MARKET/ESEWA%20MARKET/Cart/View/MyCartViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "195"
+                  endingLineNumber = "195"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AEA2B312-403B-47F3-903D-F786BB856EFB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ESEWA MARKET/Cart/View/MyCartViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "195"
+            endingLineNumber = "195"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D1BA79B-0167-481D-AD4C-06E4E3DEB359"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ESEWA MARKET/Cart/View/CustomTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "223"
+            endingLineNumber = "223"
+            landmarkName = "updatePriceLabel()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1D1BA79B-0167-481D-AD4C-06E4E3DEB359 - 74b3a3629c1ed01d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ESEWA_MARKET.CustomTableViewCell.calculatePrice(quantity: Swift.Int) -&gt; Swift.Double"
+                  moduleName = "ESEWA MARKET"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirangurung/Desktop/NewP/ESEWA%20MARKET/ESEWA%20MARKET/Cart/View/CustomTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "223"
+                  endingLineNumber = "223"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "1D1BA79B-0167-481D-AD4C-06E4E3DEB359 - c29eaada9789c36b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ESEWA_MARKET.CustomTableViewCell.updatePriceLabel() -&gt; ()"
+                  moduleName = "ESEWA MARKET"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirangurung/Desktop/NewP/ESEWA%20MARKET/ESEWA%20MARKET/Cart/View/CustomTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "223"
+                  endingLineNumber = "223"
+                  offsetFromSymbolStart = "420">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
