@@ -7,23 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EFBD548368EC7DA92DF0255 /* Pods_ESEWA_MARKET.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195A9F98B6987CD1C8D2525C /* Pods_ESEWA_MARKET.framework */; };
+		B3297ECE29F039D900D5E555 /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3297ECD29F039D900D5E555 /* CartModel.swift */; };
+		B3297ED329F13F6D00D5E555 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3297ED229F13F6D00D5E555 /* Constants.swift */; };
+		B3297ED529F13FC800D5E555 /* ViewControllerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3297ED429F13FC800D5E555 /* ViewControllerPresenter.swift */; };
+		B3297ED829F1400500D5E555 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3297ED729F1400500D5E555 /* API.swift */; };
+		B3297EDA29F147ED00D5E555 /* ViewSevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3297ED929F147ED00D5E555 /* ViewSevice.swift */; };
+		B33C078329F5361A00FDFBD2 /* MyCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33C078229F5361A00FDFBD2 /* MyCartViewController.swift */; };
+		B36E2F6129F502AC0039031F /* DeletePopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36E2F6029F502AC0039031F /* DeletePopUpViewController.swift */; };
+		B36E2F6529F533EA0039031F /* DeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36E2F6429F533EA0039031F /* DeleteViewController.swift */; };
+		B3CA02FB29F1A46300D5185B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CA02FA29F1A46300D5185B /* HomeViewController.swift */; };
+		B3CA030129F2B15900D5185B /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CA030029F2B15900D5185B /* ProductDetailViewController.swift */; };
+		B3CA030329F2B1C900D5185B /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CA030229F2B1C900D5185B /* PhotoTableViewCell.swift */; };
+		B3CA030529F2B1E400D5185B /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CA030429F2B1E400D5185B /* PhotoCollectionViewCell.swift */; };
+		B3CA030929F2B2A300D5185B /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CA030829F2B2A300D5185B /* ProductModel.swift */; };
 		B3D51CDE29EE847900435BB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D51CDD29EE847900435BB3 /* AppDelegate.swift */; };
 		B3D51CE029EE847900435BB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D51CDF29EE847900435BB3 /* SceneDelegate.swift */; };
-		B3D51CE229EE847900435BB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D51CE129EE847900435BB3 /* ViewController.swift */; };
-		B3D51CE529EE847900435BB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D51CE329EE847900435BB3 /* Main.storyboard */; };
 		B3D51CE729EE847A00435BB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D51CE629EE847A00435BB3 /* Assets.xcassets */; };
 		B3D51CEA29EE847A00435BB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D51CE829EE847A00435BB3 /* LaunchScreen.storyboard */; };
+		B3D51CF229EE87D200435BB3 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D51CF129EE87D200435BB3 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		195A9F98B6987CD1C8D2525C /* Pods_ESEWA_MARKET.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESEWA_MARKET.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		390F224346BA22E2CE91BAA8 /* Pods-ESEWA MARKET.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESEWA MARKET.debug.xcconfig"; path = "Target Support Files/Pods-ESEWA MARKET/Pods-ESEWA MARKET.debug.xcconfig"; sourceTree = "<group>"; };
+		B3297ECD29F039D900D5E555 /* CartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
+		B3297ED229F13F6D00D5E555 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B3297ED429F13FC800D5E555 /* ViewControllerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPresenter.swift; sourceTree = "<group>"; };
+		B3297ED729F1400500D5E555 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		B3297ED929F147ED00D5E555 /* ViewSevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSevice.swift; sourceTree = "<group>"; };
+		B33C078229F5361A00FDFBD2 /* MyCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCartViewController.swift; sourceTree = "<group>"; };
+		B36E2F6029F502AC0039031F /* DeletePopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletePopUpViewController.swift; sourceTree = "<group>"; };
+		B36E2F6429F533EA0039031F /* DeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteViewController.swift; sourceTree = "<group>"; };
+		B3CA02FA29F1A46300D5185B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B3CA030029F2B15900D5185B /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		B3CA030229F2B1C900D5185B /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
+		B3CA030429F2B1E400D5185B /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		B3CA030829F2B2A300D5185B /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		B3D51CDA29EE847900435BB3 /* ESEWA MARKET.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ESEWA MARKET.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D51CDD29EE847900435BB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3D51CDF29EE847900435BB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B3D51CE129EE847900435BB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B3D51CE429EE847900435BB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3D51CE629EE847A00435BB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3D51CE929EE847A00435BB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3D51CEB29EE847A00435BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D51CF129EE87D200435BB3 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		CF52573F1B21AE1A9504D2CE /* Pods-ESEWA MARKET.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESEWA MARKET.release.xcconfig"; path = "Target Support Files/Pods-ESEWA MARKET/Pods-ESEWA MARKET.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,125 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EFBD548368EC7DA92DF0255 /* Pods_ESEWA_MARKET.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0070EFB0593091A1D9D80F82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				390F224346BA22E2CE91BAA8 /* Pods-ESEWA MARKET.debug.xcconfig */,
+				CF52573F1B21AE1A9504D2CE /* Pods-ESEWA MARKET.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		41767C8EEEE4877F78AABFB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				195A9F98B6987CD1C8D2525C /* Pods_ESEWA_MARKET.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3297EC929F038C300D5E555 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				B3297ECC29F038F100D5E555 /* Presenter */,
+				B3297ECB29F038E200D5E555 /* Model */,
+				B3297ECA29F038D500D5E555 /* View */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		B3297ECA29F038D500D5E555 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3D51CF129EE87D200435BB3 /* CustomTableViewCell.swift */,
+				B36E2F6029F502AC0039031F /* DeletePopUpViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B3297ECB29F038E200D5E555 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3297ECD29F039D900D5E555 /* CartModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3297ECC29F038F100D5E555 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B3297ED429F13FC800D5E555 /* ViewControllerPresenter.swift */,
+				B3297ED929F147ED00D5E555 /* ViewSevice.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B3297ED129F13F6200D5E555 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B3297ED229F13F6D00D5E555 /* Constants.swift */,
+				B3297ED729F1400500D5E555 /* API.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B36087D429F643EC00A6B971 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B3CA02F929F1A42F00D5185B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B36087D429F643EC00A6B971 /* View */,
+				B3CA02FA29F1A46300D5185B /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B3CA02FF29F2B0E500D5185B /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				B3CA030029F2B15900D5185B /* ProductDetailViewController.swift */,
+				B3CA030729F2B26B00D5185B /* Cell */,
+				B3CA030629F2B26400D5185B /* Model */,
+			);
+			path = ProductDetail;
+			sourceTree = "<group>";
+		};
+		B3CA030629F2B26400D5185B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3CA030829F2B2A300D5185B /* ProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3CA030729F2B26B00D5185B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B3CA030429F2B1E400D5185B /* PhotoCollectionViewCell.swift */,
+				B3CA030229F2B1C900D5185B /* PhotoTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		B3D51CD129EE847900435BB3 = {
 			isa = PBXGroup;
 			children = (
 				B3D51CDC29EE847900435BB3 /* ESEWA MARKET */,
 				B3D51CDB29EE847900435BB3 /* Products */,
+				0070EFB0593091A1D9D80F82 /* Pods */,
+				41767C8EEEE4877F78AABFB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +192,14 @@
 		B3D51CDC29EE847900435BB3 /* ESEWA MARKET */ = {
 			isa = PBXGroup;
 			children = (
+				B3CA02F929F1A42F00D5185B /* Home */,
+				B3CA02FF29F2B0E500D5185B /* ProductDetail */,
+				B3297ED129F13F6200D5E555 /* Resources */,
+				B3297EC929F038C300D5E555 /* Cart */,
 				B3D51CDD29EE847900435BB3 /* AppDelegate.swift */,
 				B3D51CDF29EE847900435BB3 /* SceneDelegate.swift */,
-				B3D51CE129EE847900435BB3 /* ViewController.swift */,
-				B3D51CE329EE847900435BB3 /* Main.storyboard */,
+				B33C078229F5361A00FDFBD2 /* MyCartViewController.swift */,
+				B36E2F6429F533EA0039031F /* DeleteViewController.swift */,
 				B3D51CE629EE847A00435BB3 /* Assets.xcassets */,
 				B3D51CE829EE847A00435BB3 /* LaunchScreen.storyboard */,
 				B3D51CEB29EE847A00435BB3 /* Info.plist */,
@@ -74,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3D51CEE29EE847A00435BB3 /* Build configuration list for PBXNativeTarget "ESEWA MARKET" */;
 			buildPhases = (
+				AB515E07044E76C2B337A882 /* [CP] Check Pods Manifest.lock */,
 				B3D51CD629EE847900435BB3 /* Sources */,
 				B3D51CD729EE847900435BB3 /* Frameworks */,
 				B3D51CD829EE847900435BB3 /* Resources */,
+				3AEFBB176CE2C9E3558E6826 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +269,80 @@
 			files = (
 				B3D51CEA29EE847A00435BB3 /* LaunchScreen.storyboard in Resources */,
 				B3D51CE729EE847A00435BB3 /* Assets.xcassets in Resources */,
-				B3D51CE529EE847900435BB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AEFBB176CE2C9E3558E6826 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ESEWA MARKET/Pods-ESEWA MARKET-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ESEWA MARKET/Pods-ESEWA MARKET-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ESEWA MARKET/Pods-ESEWA MARKET-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB515E07044E76C2B337A882 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ESEWA MARKET-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B3D51CD629EE847900435BB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3D51CE229EE847900435BB3 /* ViewController.swift in Sources */,
+				B3297ED529F13FC800D5E555 /* ViewControllerPresenter.swift in Sources */,
+				B3CA030529F2B1E400D5185B /* PhotoCollectionViewCell.swift in Sources */,
+				B3297ECE29F039D900D5E555 /* CartModel.swift in Sources */,
+				B3297EDA29F147ED00D5E555 /* ViewSevice.swift in Sources */,
+				B3CA02FB29F1A46300D5185B /* HomeViewController.swift in Sources */,
+				B36E2F6129F502AC0039031F /* DeletePopUpViewController.swift in Sources */,
+				B3CA030929F2B2A300D5185B /* ProductModel.swift in Sources */,
+				B36E2F6529F533EA0039031F /* DeleteViewController.swift in Sources */,
 				B3D51CDE29EE847900435BB3 /* AppDelegate.swift in Sources */,
 				B3D51CE029EE847900435BB3 /* SceneDelegate.swift in Sources */,
+				B3CA030129F2B15900D5185B /* ProductDetailViewController.swift in Sources */,
+				B3CA030329F2B1C900D5185B /* PhotoTableViewCell.swift in Sources */,
+				B3D51CF229EE87D200435BB3 /* CustomTableViewCell.swift in Sources */,
+				B3297ED829F1400500D5E555 /* API.swift in Sources */,
+				B33C078329F5361A00FDFBD2 /* MyCartViewController.swift in Sources */,
+				B3297ED329F13F6D00D5E555 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B3D51CE329EE847900435BB3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B3D51CE429EE847900435BB3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B3D51CE829EE847A00435BB3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +470,7 @@
 		};
 		B3D51CEF29EE847A00435BB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 390F224346BA22E2CE91BAA8 /* Pods-ESEWA MARKET.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +481,6 @@
 				INFOPLIST_FILE = "ESEWA MARKET/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +498,7 @@
 		};
 		B3D51CF029EE847A00435BB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF52573F1B21AE1A9504D2CE /* Pods-ESEWA MARKET.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +509,6 @@
 				INFOPLIST_FILE = "ESEWA MARKET/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
