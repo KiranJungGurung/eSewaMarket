@@ -7,7 +7,10 @@
 
 import UIKit
 
+
 class DeletePopUpViewController: UIViewController {
+    
+     var onDeleteClicked: (()->())?
         
     private let deleteView:UIView = {
         let deleteStackView = UIView ()
@@ -71,9 +74,7 @@ class DeletePopUpViewController: UIViewController {
         
     }()
 
-    
-    
-    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()

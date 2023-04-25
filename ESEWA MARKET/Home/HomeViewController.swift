@@ -7,53 +7,72 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: UIViewController, UITableViewDelegate {
     
-    let productSearch = UISearchBar()
-    
-    
+    var searchController = UISearchController(searchResultsController: nil)
     
     private let homeTableView: UITableView = {
         let homeTable = UITableView()
-        homeTable.backgroundColor = .systemFill//.systemFill
+        homeTable.backgroundColor = .white//.systemFill
         homeTable.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         return homeTable
     }()
     
     
+//    private let homeCollectionView: UICollectionView = {
+//        let collectionView = UIColllectionView
+//    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(homeTableView)
+        setupTableView()
+        searchBar()
         
-        
-        // add delegate and datasource protocol in homeTableView
-        
-        homeTableView.delegate = self
-        homeTableView.delegate = self
         
         view.backgroundColor = .white
-        let button = UIBarButtonItem(image: UIImage(systemName: "notification"), style: .plain, target: self, action: nil)
-        let moreButton = UIBarButtonItem(image: UIImage(systemName: "ellipsis.vertical"), style: .plain, target: self, action: nil)
+        let button = UIBarButtonItem(image: UIImage(systemName: "cart"), style: .plain, target: self, action: nil)
         button.tintColor = .black
-        moreButton.tintColor = .black
         navigationItem.rightBarButtonItem = button
-        navigationItem.leftBarButtonItem = moreButton
+    
         navigationItem.title = "Market"
         
+       
     }
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        homeTableView.frame = view.bounds
+    }
+    
+    private func setupTableView() {
+        homeTableView.delegate = self
+        homeTableView .dataSource = self
+        homeTableView.backgroundColor = .clear
+        homeTableView.separatorStyle = .none
+    }
+    private func searchBar() {
+        navigationItem.searchController = UISearchController()
+        navigationItem.hidesSearchBarWhenScrolling = false
+        searchController.searchBar.tintColor = .white
+    }
+    
+    
+
 }
 
-extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
+extension HomeViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        3
+        return 5
     }
+    
+    
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = homeTableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = "Hello World"
         return cell
     }
     
     
     
 }
+

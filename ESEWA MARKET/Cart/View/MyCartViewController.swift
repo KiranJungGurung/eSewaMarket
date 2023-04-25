@@ -12,7 +12,7 @@ class MyCartViewController: UIViewController {
     //    let pc = HomeViewController()
     var items = 2
     var count = 1
-    var totalAmount = 20
+    var totalPrice = 0.0
         
         // MARK: - Add Delete and Cancel View
         
@@ -76,6 +76,8 @@ class MyCartViewController: UIViewController {
             // VC ko view ko color
             self.view.backgroundColor = .systemGray6.withAlphaComponent(1)
             
+           
+            
             //MARK: - ADD NABBAR INTO VIEWCONTROLLER
             
                 let button = UIBarButtonItem(image: UIImage(systemName: "cart"), style: .plain, target: self, action: nil)
@@ -103,6 +105,7 @@ class MyCartViewController: UIViewController {
             super.viewDidLayoutSubviews()
             tableView.frame = view.bounds
             setupFooterView()
+            updateTotalPriceLabel()
         }
         
         private func setupTableView() {
@@ -112,6 +115,10 @@ class MyCartViewController: UIViewController {
             tableView.separatorStyle = .none
         }
         
+    private func updateTotalPriceLabel() {
+        totalPriceLabel.text = "Rs.\(totalPrice)"
+
+    }
         private func setupFooterView() {
             
             NSLayoutConstraint.activate([
@@ -188,21 +195,33 @@ extension MyCartViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: CustomTableViewCell.identifier, for: indexPath) as! CustomTableViewCell
-//        cell.updateCountClosure = { [weak self] count in
-//            self?.totalPriceLabel.text = "\(count)"
             cell.backgroundColor = .clear
+      
+//        for i in 0..<tableView.numberOfRows(inSection: 0) {
+//            if let cell = tableView.cellForRow(at: IndexPath(row: i, section: 0)) as? CustomTableViewCell {
+//                cell.countChanged = { price in
+//                    self.totalPrice += price
+//                    self.updateTotalPriceLabel()
+//            }
+//        }
+      
         cell.countChanged = { price in
-            print("\(price)++++++++++++ ")
-            // update the view
+            self.totalPrice += price
+            self.updateTotalPriceLabel()
             
         }
-            return cell
+      
+            // update the view
+        return cell
+            
         }
+        
         func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
             
             return 150
             
         }
+    
         
         //* reference for shop page
         

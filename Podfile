@@ -8,6 +8,7 @@ target 'ESEWA MARKET' do
   # Pods for ESEWA MARKET
 pod 'Alamofire'
 pod 'BottomSheet', :git => 'https://github.com/joomcode/BottomSheet'
+pod
 #pod 'ObjectMapper'
 
 
