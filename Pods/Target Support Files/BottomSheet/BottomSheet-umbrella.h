@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "JMMulticastDelegate.h"
+//#import "JMMulticastDelegate.h"
 
 FOUNDATION_EXPORT double BottomSheetVersionNumber;
 FOUNDATION_EXPORT const unsigned char BottomSheetVersionString[];

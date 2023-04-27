@@ -30,42 +30,10 @@
             filePath = "ESEWA MARKET/Cart/View/CustomTableViewCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "224"
-            endingLineNumber = "224"
+            startingLineNumber = "230"
+            endingLineNumber = "230"
             landmarkName = "updatePriceLabel()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "1D1BA79B-0167-481D-AD4C-06E4E3DEB359 - c29eaada9789c34a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ESEWA_MARKET.CustomTableViewCell.updatePriceLabel() -&gt; ()"
-                  moduleName = "ESEWA MARKET"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kirangurung/Desktop/NewP/ESEWA%20MARKET/ESEWA%20MARKET/Cart/View/CustomTableViewCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "224"
-                  endingLineNumber = "224"
-                  offsetFromSymbolStart = "536">
-               </Location>
-               <Location
-                  uuid = "1D1BA79B-0167-481D-AD4C-06E4E3DEB359 - c29eaada9789c34a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ESEWA_MARKET.CustomTableViewCell.updatePriceLabel() -&gt; ()"
-                  moduleName = "ESEWA MARKET"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kirangurung/Desktop/NewP/ESEWA%20MARKET/ESEWA%20MARKET/Cart/View/CustomTableViewCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "224"
-                  endingLineNumber = "224"
-                  offsetFromSymbolStart = "420">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -78,8 +46,8 @@
             filePath = "ESEWA MARKET/Cart/View/CustomTableViewCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "136"
-            endingLineNumber = "136"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
             landmarkName = "init(style:reuseIdentifier:)"
             landmarkType = "7">
             <Locations>
@@ -114,6 +82,258 @@
                   offsetFromSymbolStart = "1640">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00F164DC-9990-4DA5-BEE7-A6C9180A38E3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ESEWA MARKET/Home/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "00F164DC-9990-4DA5-BEE7-A6C9180A38E3 - 10cb4ff8e2f1d8b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ESEWA_MARKET.HomeViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "ESEWA MARKET"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirangurung/Desktop/NewP/ESEWA%20MARKET/ESEWA%20MARKET/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "460">
+               </Location>
+               <Location
+                  uuid = "00F164DC-9990-4DA5-BEE7-A6C9180A38E3 - 10cb4ff8e2f1d8de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ESEWA_MARKET.HomeViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "ESEWA MARKET"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirangurung/Desktop/NewP/ESEWA%20MARKET/ESEWA%20MARKET/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "460">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7DB4017-8766-4C07-99B9-FA1B9F3C21CA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ESEWA MARKET/Home/HomePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "fetch()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D7DB4017-8766-4C07-99B9-FA1B9F3C21CA - f3d7fef35e858d70"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ESEWA_MARKET.HomePresenter.fetch() -&gt; ()"
+                  moduleName = "ESEWA MARKET"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirangurung/Desktop/NewP/ESEWA%20MARKET/ESEWA%20MARKET/Home/HomePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "248">
+               </Location>
+               <Location
+                  uuid = "D7DB4017-8766-4C07-99B9-FA1B9F3C21CA - 237bcc20bf8fe0aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in ESEWA_MARKET.HomePresenter.fetch() -&gt; ()"
+                  moduleName = "ESEWA MARKET"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirangurung/Desktop/NewP/ESEWA%20MARKET/ESEWA%20MARKET/Home/HomePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "D7DB4017-8766-4C07-99B9-FA1B9F3C21CA - f3d7fef35e858cd5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ESEWA_MARKET.HomePresenter.fetch() -&gt; ()"
+                  moduleName = "ESEWA MARKET"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirangurung/Desktop/NewP/ESEWA%20MARKET/ESEWA%20MARKET/Home/HomePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "248">
+               </Location>
+               <Location
+                  uuid = "D7DB4017-8766-4C07-99B9-FA1B9F3C21CA - 237bcc20bf8fe007"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in ESEWA_MARKET.HomePresenter.fetch() -&gt; ()"
+                  moduleName = "ESEWA MARKET"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirangurung/Desktop/NewP/ESEWA%20MARKET/ESEWA%20MARKET/Home/HomePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "D7DB4017-8766-4C07-99B9-FA1B9F3C21CA - f3d7fef35e858f9f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ESEWA_MARKET.HomePresenter.fetch() -&gt; ()"
+                  moduleName = "ESEWA MARKET"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirangurung/Desktop/NewP/ESEWA%20MARKET/ESEWA%20MARKET/Home/HomePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "728">
+               </Location>
+               <Location
+                  uuid = "D7DB4017-8766-4C07-99B9-FA1B9F3C21CA - f92a1761a2ce31f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[1] = Value Promoted from Box&gt; of closure #1 @Swift.MainActor () -&gt; () in ESEWA_MARKET.HomePresenter.fetch() -&gt; ()"
+                  moduleName = "ESEWA MARKET"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirangurung/Desktop/NewP/ESEWA%20MARKET/ESEWA%20MARKET/Home/HomePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "194D3C55-B58F-4F44-99EA-8BD2BFC313D6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ESEWA MARKET/Home/HomePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "fetch()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "194D3C55-B58F-4F44-99EA-8BD2BFC313D6 - 237bcc20bf8fe007"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in ESEWA_MARKET.HomePresenter.fetch() -&gt; ()"
+                  moduleName = "ESEWA MARKET"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirangurung/Desktop/NewP/ESEWA%20MARKET/ESEWA%20MARKET/Home/HomePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "194D3C55-B58F-4F44-99EA-8BD2BFC313D6 - f92a1761a2ce31f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[1] = Value Promoted from Box&gt; of closure #1 @Swift.MainActor () -&gt; () in ESEWA_MARKET.HomePresenter.fetch() -&gt; ()"
+                  moduleName = "ESEWA MARKET"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirangurung/Desktop/NewP/ESEWA%20MARKET/ESEWA%20MARKET/Home/HomePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04953F3C-D37F-48DE-91E4-0D1D149AE55E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ESEWA MARKET/Home/View/ShopBannerTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ShopBannerTableViewCell"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1BA740C0-8A80-4C06-957B-A1EFF10677FF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ESEWA MARKET/Home/View/BannerCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "init(frame:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B6E9C14-0D5F-432A-ADE8-9334B60F5636"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ESEWA MARKET/Home/View/FeaturedCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "FeaturedCell"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

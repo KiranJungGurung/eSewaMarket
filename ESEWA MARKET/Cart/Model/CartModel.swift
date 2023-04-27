@@ -10,15 +10,18 @@ import Foundation
 struct CartModel {
     
     var price: Double?
-    var itemName: String?
-    var itemDescription: String?
-    var itemImage: String?
-    var itemCount: Int?
+    var titleLabel: String?
+    var subTitleLabel: String?
+    var ProductQuantityLabel: String?
+    var itemCountLabel: Int?
     
 }
-
 
 struct TotalPrice {
     var quanity: Int?
     var price: Double?
+    var items: Int?
+    var count: Int?
 }
+
+

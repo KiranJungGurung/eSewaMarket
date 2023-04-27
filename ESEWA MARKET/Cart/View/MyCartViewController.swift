@@ -8,9 +8,21 @@
 import UIKit
 import BottomSheet
 
+struct Items {
+    var titleLabel: String?
+    var subTitleLabel: String?
+    var totalPriceLabel: Double?
+    var count: Int?
+    var price: Double?
+    
+}
+
+
 class MyCartViewController: UIViewController {
     //    let pc = HomeViewController()
-    var items = 2
+    
+    
+    var item = 2
     var count = 1
     var totalPrice = 0.0
         
@@ -186,7 +198,7 @@ extension MyCartViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "items \(items)"
+        return "items \(item)"
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

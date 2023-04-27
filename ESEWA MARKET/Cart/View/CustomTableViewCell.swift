@@ -6,6 +6,12 @@
 //
 import UIKit
 
+struct Cart {
+    var quanity: Int?
+    var productPrice: Double?
+    var itemCountLabel: Int?
+}
+
 
 class CustomTableViewCell: UITableViewCell {
 
@@ -41,7 +47,7 @@ class CustomTableViewCell: UITableViewCell {
 
     }()
 
-    private let myLabel: UILabel = {
+    private let titleLabel: UILabel = {
         let label = UILabel()
         label.text = "Jacket on Nylon"
         label.textColor = .black
@@ -51,7 +57,7 @@ class CustomTableViewCell: UITableViewCell {
         return label
     }()
 
-    private let mySubLabel: UILabel = {
+    private let subTitleLabel: UILabel = {
         let subLabel = UILabel()
         subLabel.text = "Celeine"
         subLabel.textColor = .gray
@@ -61,7 +67,7 @@ class CustomTableViewCell: UITableViewCell {
         return subLabel
     }()
     
-    private let ProductQuantity: UILabel = {
+    private let productQuantityLabel: UILabel = {
         let quantityLabel = UILabel()
         quantityLabel.text = "Rs.19,500.00"
         quantityLabel.font = UIFont.systemFont(ofSize: 16)
@@ -128,9 +134,9 @@ class CustomTableViewCell: UITableViewCell {
         
         contentView.addSubview(containerView)
         contentView.addSubview(myImageView)
-        contentView.addSubview(myLabel)
-        contentView.addSubview(mySubLabel)
-        contentView.addSubview(ProductQuantity)
+        contentView.addSubview(titleLabel)
+        contentView.addSubview(subTitleLabel)
+        contentView.addSubview(productQuantityLabel)
         
         
         contentView.addSubview(myCountView)
@@ -172,16 +178,16 @@ class CustomTableViewCell: UITableViewCell {
              
            // pin title label
             
-            myLabel.leadingAnchor.constraint(equalTo: myImageView.trailingAnchor, constant: 8),
-            myLabel.heightAnchor.constraint(equalToConstant: 80),
+            titleLabel.leadingAnchor.constraint(equalTo: myImageView.trailingAnchor, constant: 8),
+            titleLabel.heightAnchor.constraint(equalToConstant: 80),
             
             // pin subtitle label
-            mySubLabel.leadingAnchor.constraint(equalTo: myLabel.leadingAnchor),
-            mySubLabel.heightAnchor.constraint(equalToConstant: 120),
+            subTitleLabel.leadingAnchor.constraint(equalTo: titleLabel.leadingAnchor),
+            subTitleLabel.heightAnchor.constraint(equalToConstant: 120),
             
             // pin price label
-            ProductQuantity.leadingAnchor.constraint(equalTo: mySubLabel.leadingAnchor),
-            ProductQuantity.heightAnchor.constraint(equalToConstant: 230),
+            productQuantityLabel.leadingAnchor.constraint(equalTo: subTitleLabel.leadingAnchor),
+            productQuantityLabel.heightAnchor.constraint(equalToConstant: 230),
             
             
             // MARK: - Add Constraints to CounterView
@@ -214,13 +220,13 @@ class CustomTableViewCell: UITableViewCell {
     }
     
     func calculatePrice(quantity: Int) -> Double {
-        let ProductQuantity = productPrice * Double(quantity)
-        return ProductQuantity
+        let productQuantityLabel = productPrice * Double(quantity)
+        return productQuantityLabel
     }
     
     func updatePriceLabel() {
         let updatedPrice = calculatePrice(quantity: quantity)
-        ProductQuantity.text = "$\(updatedPrice)"
+        productQuantityLabel.text = "$\(updatedPrice)"
         countChanged?(Double(updatedPrice))
     }
 
